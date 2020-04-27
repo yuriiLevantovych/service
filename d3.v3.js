@@ -599,6 +599,7 @@
   };
   function d3_selection_selector(selector) {
     return typeof selector === "function" ? selector : function() {
+      console.log('d3_document2', this);
       return d3_select(selector, this);
     };
   }
@@ -1040,7 +1041,7 @@
   d3.select = function(node) {
     var group;
     if (typeof node === "string") {
-      console.log('d3_document', d3_document);
+      console.log('d3_document1', d3_document);
       group = [ d3_select(node, d3_document) ];
       group.parentNode = d3_document.documentElement;
     } else {
