@@ -1,0 +1,23 @@
+{
+  "name": "adline",
+  "version": "1.0.0",
+  "description": "Graph service",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node service.js",
+    "create_report": "node service.js"
+  },
+  "author": "Roman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "chart.js": "^2.9.3",
+    "d3": "^5.16.0",
+    "datamaps": "^0.5.9",
+    "jsdom": "^16.2.2",
+    "moment": "^2.24.0",
+    "puppeteer": "^3.0.1"
+  }
+}
