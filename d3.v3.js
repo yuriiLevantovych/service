@@ -1040,6 +1040,7 @@
   d3.select = function(node) {
     var group;
     if (typeof node === "string") {
+      console.log('d3_document', d3_document);
       group = [ d3_select(node, d3_document) ];
       group.parentNode = d3_document.documentElement;
     } else {

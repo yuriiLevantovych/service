@@ -261,7 +261,7 @@ isoCountryCodes.forEach(isoCode => {
 
 const dom = new JSDOM(
   `<html><body>
-<script defer src="https://www.dropbox.com/s/9wslbk8lhmgf5z9/d3.v3.js"></script>
+<script defer src="https://raw.githubusercontent.com/yuriiLevantovych/service/master/d3.v3.js"></script>
 <script defer src="https://unpkg.com/topojson@3"></script>
 <script defer src="https://raw.githubusercontent.com/markmarkoh/datamaps/master/dist/datamaps.world.js"></script>
 <div id="svgContainer"></div>
